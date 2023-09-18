@@ -10,22 +10,27 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <header class="global-header">
+    <div class="container">
+    <div class="header-container">
+      <header class="global-header">
       <!--Logo-->
 
       <a
-        href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?
-        type=design&node-id=74568-301&mode=design&t=ONibkh4hwl0cAPnj-0"
+        href="#"
         class="header-logo"
         ><span class="header-logo-web">Web</span>Studio</a
       >
 
       <!--Navigation Bar-->
-
+    <div class="nav-container">
       <nav class="main-navigation">
         <ul>
           <li><a href="./index.html">Studio</a></li>
@@ -39,10 +44,15 @@
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+1-212-772-4150">+1-212-772-4150</a></li>
       </ul>
-    </header>
+    </div>
+      
+    </header></div>  
+    
 
     <main>
-      <section>
+      
+      <section class="portofolio-section">
+        <div class="portofolio-container">
         <ul class="filter">
           <li >
             <button type="button" class="filter-button" href="#">All</button>
@@ -64,8 +74,8 @@
         <ul class="filter-list">
           <li class="filter-card">
             <img src="./images/technoduck.jpg" alt="Technoduck" width="370" />
-            <h3 class="filter-title">Technoduck</h3>
-            <span>Web-site</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Technoduck</h3>
+            <span>Web-site</span></div>
           </li>
 
           <li class="filter-card">
@@ -74,8 +84,8 @@
               alt="Poster New Orlean vs Golden Star"
               width="370"
             />
-            <h3 class="filter-title">Poster New Orlean vs Golden Star</h3>
-            <span>Design</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Poster New Orlean vs Golden Star</h3>
+            <span>Design</span></div>
           </li>
 
           <li class="filter-card">
@@ -84,8 +94,8 @@
               alt="Seafood Restaurant"
               width="370"
             />
-            <h3 class="filter-title">Seafood Restaurant</h3>
-            <span>Apps</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Seafood Restaurant</h3>
+            <span>Apps</span></div>
           </li>
 
           <li class="filter-card">
@@ -94,8 +104,8 @@
               alt="Project Prime"
               width="370"
             />
-            <h3 class="filter-title">Project Prime</h3>
-            <span>Marketing</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Project Prime</h3>
+            <span>Marketing</span></div>
           </li>
 
           <li class="filter-card">
@@ -104,8 +114,8 @@
               alt="Project Boxes"
               width="370"
             />
-            <h3 class="filter-title">Project Boxes</h3>
-            <span>Apps</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Project Boxes</h3>
+            <span>Apps</span></div>
           </li>
 
           <li class="filter-card">
@@ -114,8 +124,8 @@
               alt="Inspiration has no Borders"
               width="370"
             />
-            <h3 class="filter-title">Inspiration has no Borders</h3>
-            <span>Web-site</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Inspiration has no Borders</h3>
+            <span>Web-site</span></div>
           </li>
 
           <li class="filter-card">
@@ -124,14 +134,14 @@
               alt="Limited Edition"
               width="370"
             />
-            <h3 class="filter-title">Limited Edition</h3>
-            <span>Design</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Limited Edition</h3>
+            <span>Design</span></div>
           </li>
 
           <li class="filter-card">
             <img src="./images/project-lab.jpg" alt="Project LAB" width="370" />
-            <h3 class="filter-title">Project LAB</h3>
-            <span>Marketing</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Project LAB</h3>
+            <span>Marketing</span></div>
           </li>
 
           <li class="filter-card">
@@ -140,38 +150,41 @@
               alt="Growing Business"
               width="370"
             />
-            <h3 class="filter-title">Growing Business</h3>
-            <span>Apps</span>
+            <div class="filter-card-footer"><h3 class="filter-title">Growing Business</h3>
+            <span>Apps</span></div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
     <!--Address section-->
 
     <footer class="global-footer">
-      <a
-        href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-
+        <div class="logo-footer-container">
+          <a
+            href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-
         Homework-Project?type=design&node-id=74568-301&mode=design&t=ONibkh4hwl0cAPnj-0"
-        class="logo-footer"
-        ><span class="logo-footer-web">Web</span>Studio</a
-      >
-
-      <address>
-        <ul>
-          <li>695 Park Ave, NY 10065, USA</li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="contact-footer"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+1-212-772-4150" class="contact-footer"
-              >+1-212-772-4150</a
-            >
-          </li>
-        </ul>
-      </address>
-    </footer>
+            class="logo-footer"
+            ><span class="logo-footer-web">Web</span>Studio</a
+          >
+        </div>
+        <address>
+          <ul class="address-container">
+            <li>695 Park Ave, NY 10065, USA</li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="contact-footer"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+1-212-772-4150" class="contact-footer"
+                >+1-212-772-4150</a
+              >
+            </li>
+          </ul>
+        </address>
+      </footer>
+  </div>
   </body>
 </html>
